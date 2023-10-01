@@ -14,7 +14,7 @@ public class DBConnection {
 	private PreparedStatement prepareStatement = null;
 	private ResultSet resultSet = null;
 	private final String IP = "127.0.0.1";
-	private final String PORT = "3336";
+	private final String PORT = "3306";
 	private final String DATABASE = "tablas";
 	private final String USERNAME = "root";
 	private final String PASSWORD = "P3n3l0p3.";
