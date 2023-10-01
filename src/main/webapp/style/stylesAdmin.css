@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: beige;
+}
+
+
+.handle-alcoholics h3 {
+	font-weight: 300;
+}
+
+.div-crud {
+	width: 100%;
+	height: calc(100vh-100px);
+	display: flex;
+	justify-content: center;
+}
+
+.div-crud .crud-alcoholic-wrapper {
+	width: 30%;
+	height: 600px;
+	margin: 15px 15px;
+	background-color: bisque;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+
+}
+
+.div-crud .crud-alcoholic-wrapper h3 {
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.div-crud .crud-alcoholic-wrapper form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-crud .crud-alcoholic-wrapper form input,
+.div-crud .crud-alcoholic-wrapper form button,
+.div-crud .crud-alcoholic-wrapper form label {
+	width: 60%;
+	border-radius: 10px;
+	padding: 10px 10px;
+	margin: 10px 10px;
+}
+
+.div-crud .div-list {
+	width: 55%;
+	height: calc(100%-50px);
+	margin: 15px 15px;
+	background-color: bisque;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.div-crud .div-list h5 {
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+.div-crud .wrapper-crud {
+	width: 100%;
+	height: 100%;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 30px;
+}
+
+.btn {
+	padding: 5px 10px;
+	border: none;
+	margin: 0 5px;
+	color: wheat;
+	border-radius: 50px;
+	
+}
+
+.btn-edit {
+	background-color: limegreen;
+}
+
+
+.btn-delete{
+	background-color: crimson;
+	
+}
+
+
+
+
