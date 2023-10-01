@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="style/styles.css">
 
 
-<title>INTENTO VISTA</title>
+<title>Login</title>
 </head>
 <body>
 	<div class="wrapper">
