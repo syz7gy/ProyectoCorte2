@@ -18,8 +18,8 @@
 <body>
 	<nav class="navbar navbar-dark bg-dark fixed-top">
 		<div class="container-fluid">
-			<a class="navbar-brand"><h1>Admin</h1></a> <a class="navbar-brand"><h6>
-					Anonymous alcoholics</h6></a>
+			<a class="navbar-brand"><h1>Psychologist</h1></a> <a
+				class="navbar-brand"><h6>Anonymous alcoholics</h6></a>
 			<button class="navbar-toggler" type="button"
 				data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
 				aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -29,18 +29,16 @@
 				id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
-						Admin</h5>
+						Psychologist</h5>
 					<button type="button" class="btn-close btn-close-white"
 						data-bs-dismiss="offcanvas" aria-label="Close"></button>
 				</div>
 				<div class="offcanvas-body">
 					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#wrapper-alcoholic">Clients</a></li>
+							aria-current="page" href="#">Clients</a></li>
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#wrapper-psychologist">Psychologists</a></li>
-						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#wrapper-service">Services</a></li>
+							aria-current="page" href="#">Services</a></li>
 						<li class="nav-item"><a class="nav-link active"
 							aria-current="page" href="#">Log out</a></li>
 						<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
@@ -55,8 +53,6 @@
 	<br>
 	<br>
 	<br>
-
-
 	<div class="wrapper">
 		<h1>What do you wish to do?</h1>
 		<br> <br> <br> <br>
@@ -76,43 +72,6 @@
 						<label> Enter your birthdate: <input type="date"
 							name="bdate" value="2023-10-01" />
 						</label> <input type="text" id="birth-place" placeholder="Birth place" />
-						<button type="submit" id="addbtn">Add</button>
-					</form>
-				</div>
-
-				<div class="div-list">
-					<h5>Clients list</h5>
-					<div class="wrapper-crud"></div>
-
-				</div>
-			</div>
-		</div>
-
-		<br> <br> <br> <br> <br> <br> <br>
-		<br>
-
-		<h2>Psychologist:</h2>
-		<br>
-		<div class="second-wrapper-p" id="wrapper-psychologist">
-			<div class="handle-psychologist"></div>
-			<div class="div-crud-p">
-				<div class="crud-psychologist-wrapper">
-					<h3>Handle psychologists:</h3>
-					<form action="#" id="crud">
-						<input type="text" id="name" placeholder="Name" /><input
-							type="text" id="document" placeholder="Document" /> <label
-							for="quantity">Number of sessions attended:</label> <input
-							type="number" id="quantity" name="quantity" min="0" max="1000">
-						<label> Enter your birthdate: <input type="date"
-							name="bdate" value="2023-10-01" /></label> <input type="text"
-							id="birth-place" placeholder="Birth place" /><label>
-							Enter your graduation date: <input type="date" name="bdate"
-							value="2023-10-01" />
-						</label> <label for="salary-psychologist">Salary:</label><input
-							type="number" id="salary-psychologist" name="quantity"
-							min="1100000" max=""> <label for="quantity">Number
-							of sessions attended:</label> <input type="number" id="quantity"
-							name="quantity" min="0" max="1000">
 
 						<button type="submit" id="addbtn">Add</button>
 					</form>
@@ -125,9 +84,7 @@
 				</div>
 			</div>
 		</div>
-
-		<br> <br>
-		<h2>Service people:</h2>
+		<h2>Services:</h2>
 		<br>
 		<div class="second-wrapper-s" id="wrapper-service">
 			<div class="handle-service"></div>
@@ -135,7 +92,7 @@
 				<div class="crud-service-wrapper">
 					<h3>Handle clients:</h3>
 					<form action="#" id="crud">
-						<input type="text" id="name" placeholder="Name" /> <input
+						<input type="text" id="name" placeholder="Name" />  <input
 							type="text" id="document" placeholder="Document" /> <label
 							for="quantity">Number of sessions cleaned:</label> <input
 							type="number" id="quantity" name="quantity" min="0" max="1000">
@@ -143,7 +100,8 @@
 							id="salary-services" name="quantity" min="1100000" max="">
 						<label> Enter your birthdate: <input type="date"
 							name="bdate" value="2023-10-01" />
-						</label> <input type="text" id="birth-place" placeholder="Birth place" />
+						</label>
+						<input type="text" id="birth-place" placeholder="Birth place" />
 
 						<button type="submit" id="addbtn">Add</button>
 					</form>
@@ -157,6 +115,5 @@
 			</div>
 		</div>
 	</div>
-
 </body>
 </html>

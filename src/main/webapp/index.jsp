@@ -22,11 +22,11 @@
 		<form action="">
 			<h1>Login</h1>
 			<div class="input-box">
-				<input type="text" placeholder="Username" required> <i
+				<input type="text" placeholder="Username" required id="username"> <i
 					class='bx bxs-user'></i>
 			</div>
 			<div class="input-box">
-				<input type="password" placeholder="Password" required> <i
+				<input type="password" placeholder="Password" required id="password"> <i
 					class='bx bxs-lock-alt'></i>
 			</div>
 			<pre>
@@ -34,6 +34,5 @@
 			<button type="submit" class="btn">Login</button>
 		</form>
 	</div>
-
 </body>
 </html>

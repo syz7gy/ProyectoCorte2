@@ -10,13 +10,9 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-
-	background-image: url('/src/main/webapp/images/clouds.jpg') no-repeat;
-
 	background-image: url("https://cdn-0001.qstv.on.epicgames.com/JXlILUmfhlptteOYKC/image/screen_comp.jpeg");
 
 	background-size: cover;
-	background-color: black;
 	background-position: center;
 
 }
